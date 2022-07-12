@@ -22,6 +22,15 @@
             <label>Password</label>
             <input type="password" name="password">
         </div>
+
+        <div class="input-group">
+            <label>User Role</label>
+            <select name="role" id="role">
+                <option value="User">User</option>
+                <option value="Admin">Admin</option>
+            </select>
+        </div>
+
         <div class="input-group">
             <button type="submit" class="btn" name="login_user">Login</button>
         </div>
